@@ -38,3 +38,18 @@ margin-bottom: 15px
     background-color: #000;
     color: #fff;
 }
+.return-button{
+    padding: 15px;
+    border: 1px solid #777;
+    font-weight: lighter;
+}	
+.return-button:hover{
+	padding: 15px;
+	font-weight: bold;
+    border: 1px solid #777;
+    color: #fff;
+    background: #777;
+}	
+.return-button:hover:after{
+	content: " >>";
+}
